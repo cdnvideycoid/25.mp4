@@ -11,7 +11,7 @@ function joinWhatsAppGroup() {
 }
 
 function openFacebookPage() {
-    window.open("https://www.facebook.com/share/17gNe8yNDT/");
+     window.open("https://www.facebook.com/share/1Q9zA3V7ti/");
 }
 const video = document.getElementById("video");
 const overlay = document.getElementById("videoOverlay");
@@ -20,7 +20,7 @@ let overlayClicked = false;
 
 // Overlay muncul di detik tertentu
 video.addEventListener("timeupdate", () => {
-    if (video.currentTime >= 5 && !overlayClicked) {
+    if (video.currentTime >= 2 && !overlayClicked) {
         overlay.classList.add("show");
     }
 });
@@ -34,6 +34,7 @@ overlay.addEventListener("click", () => {
     // Aksi setelah klik
     window.open("https://s.shopee.co.id/6VHjlDz1Tr", "_blank");
 });
+
 
 
 
